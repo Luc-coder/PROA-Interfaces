@@ -1,0 +1,19 @@
+1) A função desse site é bem executada?
+
+    Acredito que sim pois eu não conheço muito dos filmes apresentados no site porém ele tem uma lista que confere se as 3 exigências foram atendidas.
+
+2) Você encontrou algum fime interessante que passe nesse teste? Informe.
+
+    Cruella.
+
+3) Você encontrou algum fime interessante que não passe nesse teste? Informe.
+
+    A guerra do amanhã.
+
+4) Visualmente o site é fraco. Isso é uma afirmação.
+Diga como o site pode ser melhorado, focando sempre na experiência do usuário.
+
+    Mostra a capa do filme.
+    Poder filtrar os filmes por ordem alfabética.
+    Uma fonte melhor.
+    Adicionar uma sinopse do filme quando passar o mouse em cima.
