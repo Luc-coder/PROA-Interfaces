@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+html,body{
+    height: 100%;
+}
+
+.container{
+    padding: 0 2%;
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.clear{
+    clear: both;
+}
+
+header{
+    width: 100%;
+    height: 70vh;
+}
+
+.logo{
+    float: left;
+    background-image: url('../images/logo.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    width: 200px;
+    height: 200px;
+    margin-left: 240px;
+}
+
+.nav-desktop{
+    float: right;
+    line-height: 200px;
+    margin-right: 300px;
+}
+
+.nav-desktop ul{
+    list-style-type: none;
+}
+
+.nav-desktop li{
+    display: inline-block;
+    margin: 0 20px;
+}
+
+.nav-desktop a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.btn{
+    margin-left: 20px;
+    padding: 10px 26px;
+    font-size: 24px;
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background: black;
+    color: white;
+}
+
+.box-header{
+    display: flex;
+    padding: 0 2%;
+    max-width: 1440px;
+    margin: 0 auto;
+    justify-content: space-around;
+}
+
+.box-bg-left{
+    width: 50%;
+}
+
+.bg-servico{
+    background-image: url('../images/bg-1.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 300px;
+}
+
+.txt-right{
+    width: 50%;
+}
+
+.txt-right h2{
+    font-size: 66px;
+    padding: 10px 0;
+}
+
+.txt-right p{
+    font-size: 26px;
+    font-weight: lighter;
+    padding-bottom: 10px;
+}
+
+.txt-right button{
+    padding: 10px 34px;
+    background: white;
+    font-size: 22px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.txt-right button:hover{
+    background: black;
+    color: white;
+}
+
+section.ferramenta{
+    background: rgb(240, 240, 240);
+    width: 100%;
+}
+
+.ferramenta-flex{
+    display: flex;
+    justify-content: space-around;
+    height: 30vh;
+    align-items: center;
+}
+
+.ferramenta-flex .ferramenta-single{
+    display: flex;
+    text-align: center;
+}
+
+.ferramenta-single .single-icon{
+    padding-top: 20px;
+    font-size: 32px;
+    padding-right: 15px;
+    color:rgb(66, 66, 66);
+}
+
+.ferramenta-single .single-txt h2{
+    font-weight: lighter;
+    font-size: 29px;
+    padding-bottom: 10px;
+    color: rgb(66, 66, 66);
+}
+
+.ferramenta-single .single-txt p{
+    color: rgb(100,100,100);
+    font-size: 22px;
+}
+
+section.about{
+    width: 100%;
+}
+
+.about > .container{
+    max-width: 1440px;
+}
+
+.about-flex{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70vh;
+}
+
+.about-left h2{
+    font-size: 32px;
+    color:rgb(66, 66, 66);
+    padding-bottom: 20px;
+}
+
+.about-left p{
+    font-weight: lighter;
+    font-size: 19px;
+    color:rgb(100,100,100);
+    padding-bottom: 20px;
+}
+
+.about-left button{
+    border: 1px solid black;
+    background: white;
+    font-size: 19px;
+    text-transform: uppercase;
+    cursor: pointer;
+    border-radius: 4px;
+    padding: 8px 24px;
+}
+
+.about-left button:hover{
+    background: black;
+    color: white;
+}
+
+.about-right{
+    background-image: url('../images/bg-2.jpg');
+    background-position: center;
+    background-size: 100% 100%;
+    width: 100%;
+    height: 50%;
+}
+
+section.features{
+    width: 100%;
+    background: rgb(240, 240, 240);
+    padding: 70px 0;
+}
+
+section.features > h2{
+    text-align: center;
+    color:rgb(66, 66, 66);
+    font-size: 36px;
+    padding-bottom: 30px;
+}
+
+section.features > p{
+    color:rgb(100,100,100);
+    font-size: 19px;
+    text-align: center;
+    padding-bottom: 150px;
+}
+
+.features-flex{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: space-around;
+}
+
+.features-single{
+    text-align: center;
+    width: 33.3%;
+}
+
+.features-single i{
+    color:rgb(66, 66, 66);
+    border: 1px solid crimson;
+    border-radius: 50%;
+    padding: 12px;
+    font-size: 23px;
+}
+
+.features-single h2{
+    color:rgb(66, 66, 66);
+    padding: 15px 0;
+    font-weight: lighter;
+}
+
+.features-single p{
+    color: rgb(100,100,100);
+    line-height: 25px;
+}
+
+footer{
+    width: 100%;
+    background: rgb(66, 66, 66);
+}
+
+footer p{
+    color: white;
+    text-align: center;
+    padding: 30px 0;
+}
+@media screen and (max-width: 1300px){
+    .logo{
+        margin-left: 100px;
+    }
+
+    .nav-desktop{
+        margin-right: 100px;
+        line-height: 130px;
+    }
+
+    section.ferramenta{
+        margin-top: 170px;
+        padding: 70px 0;
+    }
+}
